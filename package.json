@@ -1,0 +1,22 @@
+{
+  "name": "song-processor",
+  "version": "1.0.0",
+  "description": "An example of using node in order to automate daily tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cherche/song-processor.git"
+  },
+  "author": "Ryan Nguyen",
+  "license": "Unlicense",
+  "dependencies": {
+    "chalk": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/cherche/song-processor/issues"
+  },
+  "homepage": "https://github.com/cherche/song-processor#readme"
+}

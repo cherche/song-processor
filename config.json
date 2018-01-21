@@ -1,0 +1,4 @@
+{
+  "input": "./songs.txt",
+  "outputDir": "./output"
+}
