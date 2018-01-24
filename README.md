@@ -16,7 +16,12 @@ Africa – Toto
 Bohemian Rhapsody – Queen
 ```
 
-This little app takes this plain-text list and sorts it by artist, then song name. It then writes three files: one with your songs in a `.json` file, one with just the artists, and one with just the songs.
+This little app takes this plain-text list and sorts it by artist, then song name. It then writes four files:
+
+- `songs.json`
+- `songs.xlsx`
+- `names.txt`
+- `artists.txt`
 
 `./output/songs.json`:
 ```json
