@@ -1,5 +1,11 @@
 {
-  "sheetName": "Songs",
-  "input": "./songs.txt",
-  "outputDir": "./output"
+  "delimiters": {
+    "song": "\n",
+    "info": " – "
+  },
+  "paths": {
+    "input": "./songs.txt",
+    "outputDir": "./output",
+    "output": "./outputs.js"
+  }
 }

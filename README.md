@@ -16,7 +16,7 @@ Africa – Toto
 Bohemian Rhapsody – Queen
 ```
 
-This little app takes this plain-text list and sorts it by artist, then song name. It then writes four files:
+This little app takes this plain-text list and sorts it by artist, then song name. By default, it will output these four files:
 
 - `songs.json`
 - `songs.xlsx`
@@ -55,7 +55,15 @@ This little app takes this plain-text list and sorts it by artist, then song nam
 }
 ```
 
-Once you have replaced the songs within the `songs.txt` with whatever songs you have, simply run the application.
+First, clone the respository and change to the directory. You will then want to install all of the npm dependencies.
+
+```bash
+git clone https://github.com/cherche/song-processor.git
+cd song-processor
+npm install
+```
+
+Now, you can change any of the settings in `config.json` and `outputs.js`, then replace the `songs.txt` file with a list of your songs.
 
 ```bash
 node index.js
