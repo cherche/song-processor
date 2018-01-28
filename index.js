@@ -3,7 +3,7 @@ const chalk = require('chalk')
 const xlsx = require('node-xlsx').default
 
 const config = require('./config.json')
-const outputs = require('./outputs.js')
+const outputs = require(config.paths.outputs)
 
 // Create output directory if it doesn't exist
 if (!fs.existsSync(config.paths.outputDir)) fs.mkdirSync(config.paths.outputDir)

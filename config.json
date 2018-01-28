@@ -6,6 +6,6 @@
   "paths": {
     "input": "./songs.txt",
     "outputDir": "./output",
-    "output": "./outputs.js"
+    "outputs": "./outputs.js"
   }
 }
