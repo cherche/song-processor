@@ -50,7 +50,7 @@ const sheet = xlsx.build([{
   data: songs.map(({ name, artist }) => [name, artist])
 }])
 
-const output = outputs.getOutput(songs, sheet)
+const output = outputs.getOutputs(songs, sheet)
 output.forEach(args => writeFile(...args))
 
 console.log(`Created files from ${songs.length} songs`)
