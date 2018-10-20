@@ -13,7 +13,7 @@ The Winner Takes It All – ABBA
 Stand By Me – Ben E. King
 The Sound of Silence – Simon & Garfunkel
 Africa – Toto
-Bohemian Rhapsody – Queen
+Shooting Stars - Bag Raiders
 ```
 
 This little app takes this plain-text list and sorts it by artist, then song name. By default, it will output these four files:
